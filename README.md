@@ -11,22 +11,22 @@ This repository contains two input files, `degree.txt` and `edges.txt`, describi
 This file contains metadata and the degree of each node in the graph.
 
 ### Format
-
+```shell
 <num_nodes> <num_edges> <num_all_data>
 <deg_1>
 <deg_2>
 ...
 <deg_n>
-
+```
 
 ## 📄 File: `edges.txt`
 
 This file contains metadata and the degree of each node in the graph.
 
 ### Format
-
+```shell
 <node_id_1> <node_id_2> [<node_id_3> ...]
-
+```
 ## ⚙️ Compilation and Execution
 
 The provided C++ implementation supports flexible and efficient processing of these datasets.
@@ -34,11 +34,11 @@ The provided C++ implementation supports flexible and efficient processing of th
 ### Step 1: Compile
 
 Ensure you are using a compiler that supports C++17. Run the following command:
-
+```shell
 g++ -std=c++17 -o main *.cpp -O3
-
+```
 
 ### Step 2: Run
-
+```shell
 ./main <file_path_prefix> <sample_size> <tau>
-
+```
